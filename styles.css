@@ -90,3 +90,53 @@ h1 {
     margin-left: 40px;
 }
 }
+
+@media screen and (max-width: 280px){
+
+h1 {
+    padding: 0;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+    
+#output{
+    margin-left: 55px;
+}
+    
+#reset{
+    margin-left: 110px;
+}
+    
+#output2{
+    margin-left: 40px;
+}
+}
+    
+@media screen and (min-width: 768px) and (max-width: 920px){
+#grid{
+    width: 450px;
+    height: 450px;
+}
+    
+#output {
+    margin-top: 50px;
+}
+    
+#reset{
+    font-size: 20px;
+    width: 140px;
+    height: 60px;
+}   
+}
+    
+@media screen and (min-width: 921px) and (max-width: 1024px){
+#grid{
+    width: 275px;
+    height: 275px;
+}
+    
+.grid-item {
+    font-size: 75px;
+}
+}
