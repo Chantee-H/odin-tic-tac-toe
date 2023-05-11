@@ -8,8 +8,8 @@ const player = (sign) => {
 };
 
 const gameBoard = (() => {
-    let playerX = player("X");
-    let playerO = player("O");
+    let playerX = player('X');
+    let playerO = player('O');
     let currentPlayer = playerX.getSign();
     const output = document.getElementById('output');
     const gridItem = document.getElementsByClassName('grid-item');
@@ -44,7 +44,7 @@ const reset = () => {
     resetBtn.addEventListener('click', () => {
         gridItem[i].innerHTML = ''; 
         output.innerHTML = 'Player: X';
-        currentPlayer = "X";
+        currentPlayer = 'X';
         output2.innerHTML = '';
         gameActive = true;
         gridItem[i].style.backgroundColor = '#BDCDD6';  
