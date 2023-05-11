@@ -38,4 +38,18 @@ const gameBoard = (() => {
     })
 }
 }
+
+const reset = () => {
+    for(let i = 0; i < gridItem.length; i++){
+    resetBtn.addEventListener('click', () => {
+        gridItem[i].innerHTML = ''; 
+        output.innerHTML = 'Player: X';
+        currentPlayer = "X";
+        output2.innerHTML = '';
+        gameActive = true;
+        gridItem[i].style.backgroundColor = '#BDCDD6';  
+        tieCount = 0;    
+    })
+}
+}
 })
