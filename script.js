@@ -82,7 +82,9 @@ const checkWinner = () => {
         output2.innerHTML = 'Tie!';
        }
     }
-   
 }
-})
+return{displayPlayer, reset};
+})();
 
+gameBoard.displayPlayer();
+gameBoard.reset();
